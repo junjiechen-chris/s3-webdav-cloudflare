@@ -1,5 +1,7 @@
 # S3 WebDAV Bridge
 
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/junjiechen-chris/s3-webdav-cloudflare)
+
 A Cloudflare Worker that translates WebDAV calls to S3 API calls, similar to the [r2-webdav](https://github.com/abersheeran/r2-webdav) project but supporting S3-compatible storage backends. Uses [aws4fetch](https://github.com/mhart/aws4fetch) for signing custom S3 calls.
 
 ## Deployment
